@@ -1,32 +1,20 @@
-import home from "../content/pages/home.json";
-import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./components/Layout";
+import CmsPage from "./pages/CmsPage";
 
 export default function App() {
   return (
-    <div className="page">
-      <header className="hero">
-        <h1>{home.hero_heading}</h1>
-        <p className="hero-sub">{home.hero_subheading}</p>
-      </header>
-
-      <main className="container">
-        {home.sections?.map((s, i) => (
-          <section key={i} className="section">
-            <h2>{s.heading}</h2>
-            {s.body && (
-              <div
-                className="body"
-                dangerouslySetInnerHTML={{ __html: s.body }}
-              />
-            )}
-            {s.cta_label && s.cta_link && (
-              <a className="btn" href={s.cta_link}>
-                {s.cta_label}
-              </a>
-            )}
-          </section>
-        ))}
-      </main>
-    </div>
+    <BrowserRouter>
+      <Layout>
+        <Routes>
+          <Route path="/" element={<CmsPage slug="home" />} />
+          <Route path="/services" element={<CmsPage slug="services" />} />
+          <Route path="/industries" element={<CmsPage slug="industries" />} />
+          <Route path="/contact" element={<CmsPage slug="contact" />} />
+          <Route path="/terms" element={<CmsPage slug="terms" />} />
+          <Route path="*" element={<CmsPage slug="home" />} />
+        </Routes>
+      </Layout>
+    </BrowserRouter>
   );
 }
