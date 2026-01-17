@@ -1,0 +1,15 @@
+{
+  "title": "Home",
+  "slug": "home",
+  "seo_description": "Allsector is your national partner in property performance—reactive maintenance, compliance, and coordinated licensed trades across Australia.",
+  "hero_heading": "Your National Partner in Property Performance",
+  "hero_subheading": "Total Maintenance. One Partner. Nationwide.",
+  "sections": [
+    {
+      "heading": "National Facilities Maintenance, Done Properly",
+      "body": "Allsector coordinates compliant, multi-trade maintenance and minor works across Australia—built for multi-site operators who need speed, visibility, and governance.",
+      "cta_label": "Request a Quote",
+      "cta_link": "/contact"
+    }
+  ]
+}
