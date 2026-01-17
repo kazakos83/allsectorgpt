@@ -1,0 +1,29 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: "pages"
+    label: "Pages"
+    format: "json"
+    extension: "json"
+    folder: "content/pages"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Slug", name: "slug", widget: "string" }
+      - { label: "SEO Description", name: "seo_description", widget: "text", required: false }
+      - { label: "Hero Heading", name: "hero_heading", widget: "string", required: false }
+      - { label: "Hero Subheading", name: "hero_subheading", widget: "text", required: false }
+      - label: "Sections"
+        name: "sections"
+        widget: "list"
+        fields:
+          - { label: "Heading", name: "heading", widget: "string", required: false }
+          - { label: "Body", name: "body", widget: "markdown", required: false }
+          - { label: "CTA Label", name: "cta_label", widget: "string", required: false }
+          - { label: "CTA Link", name: "cta_link", widget: "string", required: false }
