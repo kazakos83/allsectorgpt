@@ -1,0 +1,12 @@
+{
+  "title": "Terms",
+  "slug": "terms",
+  "hero_heading": "Terms & Conditions",
+  "hero_subheading": "Client Terms and Contractor Conditions (role-based sections).",
+  "sections": [
+    {
+      "heading": "View Terms",
+      "body": "Our terms are available at /terms on the main Allsector domain."
+    }
+  ]
+}
