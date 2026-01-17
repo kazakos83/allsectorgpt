@@ -1,1 +1,16 @@
-
+{
+  "title": "Contact",
+  "slug": "contact",
+  "hero_heading": "Request a Quote",
+  "hero_subheading": "Send the details and we’ll coordinate the next steps.",
+  "sections": [
+    {
+      "heading": "Email",
+      "body": "nick@allsector.com.au"
+    },
+    {
+      "heading": "Phone",
+      "body": "0404 306 679"
+    }
+  ]
+}
