@@ -1,1 +1,12 @@
-
+{
+  "title": "Services",
+  "slug": "services",
+  "hero_heading": "Integrated Maintenance & Minor Works",
+  "hero_subheading": "One partner to coordinate compliant trade delivery, reporting, and outcomes.",
+  "sections": [
+    {
+      "heading": "Core Services",
+      "body": "- Plumbing\n- Electrical\n- HVAC\n- Carpentry\n- Painting\n- Tiling\n- Slip-resistant flooring\n- Strip-outs & Fit-outs\n- Remodeling & General Maintenance"
+    }
+  ]
+}
