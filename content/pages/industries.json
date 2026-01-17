@@ -1,1 +1,12 @@
-
+{
+  "title": "Industries",
+  "slug": "industries",
+  "hero_heading": "Built for Multi-Site Operators",
+  "hero_subheading": "Fast response, compliance focus, and consistent service delivery nationwide.",
+  "sections": [
+    {
+      "heading": "Industries We Support",
+      "body": "- Childcare\n- Retail\n- Government\n- Medical\n- Education\n- Commercial\n- Body Corporate"
+    }
+  ]
+}
